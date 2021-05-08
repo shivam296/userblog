@@ -106,7 +106,7 @@ tr:nth-child(even) {
       </div>
       <div class="col-75">
         <img src="{{asset('image/1620463205.jpg')}}">
-       <input type="file"  value="{{$blogvalue['image_name']}}">
+       <input type="file" name="image_name" value="{{$blogvalue['image_name']}}">
       </div>
     </div>
     <div class="row">
